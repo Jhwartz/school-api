@@ -1,0 +1,5 @@
+node_modules
+
+.env
+
+DB_URL=mongodb+srv://john10:prayer333@cluster0.clva0jw.mongodb.net/schoolAPI?retryWrites=true&w=majority
