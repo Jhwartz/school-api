@@ -9,4 +9,6 @@ function validate(data) {
     return userSchema.validate(data);
 }
 
+//a validate function for schoolSchema will be written here and an async function written in schoolController
+
 module.exports = {validate};
