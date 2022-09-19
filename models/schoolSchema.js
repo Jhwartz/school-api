@@ -17,10 +17,9 @@ const schoolSchema = mongoose.Schema({
     facilities: {
         type:Array,
         required:true,
-        maxlength:3 
     },
     numOfStudents: {
-        type:num,
+        type:Number,
         required:true,
     },
     Address:{

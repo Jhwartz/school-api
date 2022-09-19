@@ -15,4 +15,10 @@ const createSchool = (req,res) => {
     
 }
 
-module.exports = {createSchool}
+//getting a school
+const getSchools = async(req, res) => {
+    const schools = await School.find();
+    res.status(200).json(schools);
+}
+
+module.exports = {createSchool, getSchools}
